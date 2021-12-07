@@ -7,22 +7,22 @@
 
     <fragment
         android:id="@+id/navHome"
-        android:name="com.lucasprojects.braziliancovid19.ui.fragments.HomeFragment"
+        android:name="com.projetoIF.covidStatus.ui.fragments.HomeFragment"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/navStates"
-        android:name="com.lucasprojects.braziliancovid19.ui.fragments.StatesListFragment"
+        android:name="com.projetoIF.covidStatus.ui.fragments.StatesListFragment"
         tools:layout="@layout/fragment_states_list" />
 
     <fragment
         android:id="@+id/navMaps"
-        android:name="com.lucasprojects.braziliancovid19.ui.fragments.HeatMapFragment"
+        android:name="com.projetoIF.covidStatus.ui.fragments.HeatMapFragment"
         tools:layout="@layout/fragment_heat_map" />
 
     <fragment
         android:id="@+id/navAbout"
-        android:name="com.lucasprojects.braziliancovid19.ui.fragments.AboutFragment"
+        android:name="com.projetoIF.covidStatus.ui.fragments.AboutFragment"
         tools:layout="@layout/fragment_about" />
 
 </navigation>
